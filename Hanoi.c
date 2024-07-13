@@ -28,7 +28,7 @@ int main()
 
 {
 	int x;
-	printf("请输入盘子个数\n");
+	printf("Please enter the number of plates\n");
 	scanf("%d",&x);
 	printf("\n");
 	Hanoi(x, 'A', 'B', 'C');
